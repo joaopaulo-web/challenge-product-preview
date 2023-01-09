@@ -18,7 +18,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 ### Links
 
 - Solution URL: [https://github.com/joaopaulo-web/challenge-product-preview/blob/main/index2.html]
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://joaopaulo-web.github.io/challenge-product-preview/]
 
 ### Built with
 
