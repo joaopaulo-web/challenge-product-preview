@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-card{
+    background-color: #F2EBE3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.left-card{
+    border-radius: 10px 0px 0px 10px;
+    background: url(images/image-product-desktop.jpg) no-repeat left;
+    background-size: cover;
+    height: 530px;
+    width: 300px;
+}
+.right-card{
+    border-radius: 0px 10px 10px 0px;
+    background-color: white;
+    height: 530px;
+    width: 300px;
+}
+.right-card > h2{
+    letter-spacing: 5px;
+    font-size: .7em;
+    font-weight: 200;
+    color: #6C7289;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.right-card > h1{
+    color: black;
+    font-weight: 700;
+    font-family: 'Fraunces', serif;
+    padding-left: 25px;
+}
+.right-card > p{
+    font-weight: 500;
+    line-height: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #3F583E;
+    padding-left: 25px;
+    padding-right: 50px;
+}
+.right-card > h3{
+    font-size: 2em;
+    font-weight: 700;
+    font-family: 'Fraunces', serif;
+    color: #3C8067;
+    padding-left: 25px;
+}
+.right-card > button{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 18px;
+    width: 250px;
+    background-color: #3C8067;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.prices{
+    display: flex;
+}
+.new-price{
+    margin-left: 25px;
+    font-size: 2em;
+    color: #3C8067;
+    font-family: 'Fraunces', serif;
+}
+.old-price{
+    font-size: .8em;
+    color: #6C7289;
+    text-decoration: line-through;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.old-price > h4{
+    font-weight: 300;
+}
+.cart-btn{
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 614px){
+    .main-card{
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+    }
+    .left-card{
+        border-radius: 10px 10px 0px 0px;
+        height: 300px;
+        width: 350px;
+    }
+    .right-card{
+        border-radius: 0px 00px 10px 10px;
+        height: 490px;
+        width: 350px;
+    }
+    .right-card > p{
+        line-height: 30px;
+        width: 95%;
+        font-size: 16px;
+        padding-top: 0;
+        margin: 0;
+
+    }
+    .right-card > h2{
+        padding-top: 10px;
+    }
+    .new-price{
+        margin: 0;
+        padding-left: 25px;
+    }
+    .right-card > button{
+        width: 300px;
+        padding: 15px;     
+    }
+    .prices{
+        height: 100px;
+        padding: 0;
+    }
+    .old-price{
+        padding-top: 18px;
+    }
+}
